@@ -10,6 +10,17 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  {
+  "name": "portfolie",
+  "version": "1.0.0",
+  "homepage": "https://nikstrvd.github.io/portfolie/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@hookform/resolvers": "^3.10.0",
